@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +10,19 @@
 </head>
 <body>
     <div class="container">
-        <h1>Aplicación del clima</h1>
-        <form action="">
-            <input id="location-input" type="text" placeholder="Entrar a la localización">
-        </form>
-        <div id="map"></div>
-        <div id="weather-info">
-            <h2>Clima actual</h2>
-            <p id="temperature">Temperatura: -- °C</p>
-        </div>
+        <header>
+            <h1>Aplicación del clima</h1>
+        </header>
+        <main>
+            <form id="location-form">
+                <input id="location-input" type="text" placeholder="Entrar a la localización">
+            </form>
+            <div id="map"></div>
+            <div id="weather-info">
+                <h2>Clima actual</h2>
+                <p id="temperature">Temperatura: -- °C</p>
+            </div>
+        </main>
     </div>
 </body>
 </html>
